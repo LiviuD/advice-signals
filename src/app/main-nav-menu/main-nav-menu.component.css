@@ -1,0 +1,13 @@
+.nav-item
+{
+    color: white;
+}
+#navbarSupportedContent
+{
+    background-color: cornflowerblue;
+}
+.nav-item.active
+{
+    font-style: italic;
+    text-decoration: underline;
+}

@@ -1,0 +1,11 @@
+#klantmenu{
+    background-color: lightgrey;
+    border: 0.5rem solid;
+    border-color:  lightgray;
+}
+.nav-item.active
+{
+    font-style: italic;
+    text-decoration: underline;
+    background-color: white;
+}
