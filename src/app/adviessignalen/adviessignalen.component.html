@@ -1,0 +1,21 @@
+<h2>Adviessignalen</h2>
+<!-- <label for="filterYears">Filte op jaar</label> -->
+
+ <select >
+  <option *ngFor="let year of years" [value]="year">
+    {{year}}
+  </option>
+</select> 
+
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Filte op jaar
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+      <li *ngFor="let year of years" class="px-2"> 
+          <input type="checkbox" id="{{'yearselection' + year}}" class="me-1">
+          <label for="{{'yearselection' + year}}">{{year}}</label>
+        </li>
+    </ul>
+</div>
+
